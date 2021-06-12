@@ -1,0 +1,84 @@
+name: elbya3
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  conditional_builder: ^1.0.2
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.1
+  dio: ^4.0.0
+  hexcolor: ^2.0.3
+  shared_preferences: ^2.0.6
+  flutter_svg: ^0.22.0 #this to use image or icons svg
+  smooth_page_indicator: ^0.2.3
+  carousel_slider: ^3.0.0 #this to make view image slider
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^1.0.0
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+
+
+  # example:
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+
+    - family: RobotoCondensed
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoCondensed-Italic.ttf
+          style: italic
+        - asset: assets/fonts/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoCondensed-Regular.ttf
+          weight: 700
+
+
+#flutter_icons:
+#  ios: true
+#  android: true
+#  image_path_ios: "assets/images/logo.png"
+#  image_path_android: "assets/images/logo.png"
